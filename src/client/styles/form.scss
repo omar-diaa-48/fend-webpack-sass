@@ -1,3 +1,6 @@
+
+// @use '/src/client/styles/varbass' as b; 
+
 form {
     border: 1px solid #545454;
     border-radius: 3px;
@@ -9,4 +12,5 @@ input {
     width: 100%;
     line-height: 16px;
     margin: 10px 0;
+    // color: b.$color-warning;
 }
