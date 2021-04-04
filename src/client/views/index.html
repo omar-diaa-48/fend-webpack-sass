@@ -27,11 +27,17 @@
                     <input id="name" type="text" name="input" value="" onblur="onBlur()" placeholder="Name">
                     <input type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">
                 </form>
+                <button style="margin-top: 10px;" onclick="Client.getData()">Get Data</button>
             <section>
 
             <section>
                 <strong>Form Results:</strong>
                 <div id="results"></div>
+            </section>
+
+            <section>
+                <strong>Response:</strong>
+                <div id="response"></div>
             </section>
         </main>
 
